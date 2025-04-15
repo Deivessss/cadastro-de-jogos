@@ -31,7 +31,8 @@ while True:
         jogo = input('Nome do jogo: ')
         v_game = input('Videogame: ')
         with open('jogos_python.txt', 'at') as arquivo:
-            arquivo.write(f'{jogo};{v_game}\n')#pulo uma linha, pra quando for registrar um jogo novo, já ir pra linha 2.
+            arquivo.write(f'{jogo};{v_game}\n')            
+            #pulo uma linha, para quando for registrar um jogo novo, já ir para a linha 2.
 
     elif menu == 2:
         print('Mostrar lista: ')
